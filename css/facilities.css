@@ -1,0 +1,62 @@
+header{
+    background-image: url(../images/facilities.png);
+}
+.facilities__title{
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--dark-blue);
+    font-family: "Fenix";
+    font-weight: 700;
+    margin: 86px auto 34px;
+}
+.facilities__paragrif{
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: var(--dark-blue);
+    font-weight: 500;
+    margin-bottom: 82px;
+}
+.facelitic__img{
+    position: relative;
+    width: 100%;
+}
+.img__facilities:after{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: ' ';
+    background-color: rgba(20, 39, 74, 0.3);
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+
+}
+.facilities__gym{
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    width: 684px;
+    height: 75px;
+    color: var(--dark-yellow);
+    margin: 0 auto;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-top: 16px;
+    
+}
+.img__facilities{
+    position: relative;
+    margin-bottom: 186px;
+}
+.facilities__text{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+}

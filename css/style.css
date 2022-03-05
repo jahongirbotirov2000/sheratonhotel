@@ -163,3 +163,90 @@ header{
     margin: 103px auto 59px;
 
 }
+#footer{
+    background-color: var(--dark-blue);
+}
+.hotel__tx{
+    color: #ffff;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: "Montserrat";
+}
+
+.hotel__mg{
+    margin-bottom:  22px;
+}
+
+
+.hotel__tx{
+   padding-bottom:  66px;
+}
+.footer__link{
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffff;
+    text-decoration: none;
+    font-family: "Montserrat";
+
+}
+.footer__ul{
+     list-style: none;
+}
+.hotel__adress{
+  display: flex;
+  justify-content: space-between ;  
+}
+.footer__link-1{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 16px;
+    line-height: 194.9%;
+    font-family: "Montserrat";
+}
+.footer__text{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Montserrat";
+    color: #ffff;
+}
+.footer__icon{
+    margin-right: 25px;
+}
+.footer__adress{
+    background-color:inherit;
+    border: 2px solid #E0B973;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.footer__input{
+    background-color:inherit;
+    border: none;
+    outline: none;
+    color: #ffff;
+    padding: 14px 25px 16px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Montserrat";
+}
+.footer__input::placeholder{
+    color: #ffff;
+}
+.footer__btn{
+    padding: 14px 28px 18px 25px;
+    background-color: var(--dark-yellow);
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Montserrat";
+    border: none;
+    outline: none;
+}
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+}
+.hotel__adress{
+    padding-top: 69px;
+}

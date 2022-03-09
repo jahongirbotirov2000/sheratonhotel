@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/Icomooon.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contatc.css">
     <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
@@ -23,7 +24,7 @@
                     <nav class="hotel__nav">
                         <ul class="nav__ul">
                             <li class="nav__li">
-                                <a href="#" class="hotel__link active">Home</a>
+                                <a href="./index.html" class="hotel__link active">Home</a>
                             </li>
                             <li class="nav__li">
                                 <a href="./Facilities.html" class="hotel__link">Facilities</a>
@@ -37,53 +38,41 @@
                         </ul>
                      </nav>
                 </div>  
-                <div class="hotel__title">
-                    <h3 class="hotel__text">WELCOME TO</h3>
-                    <h1 class="hotel__text_1">SHERATON</h1>
-                    <h3 class="hotel__text_2">HOTELS</h3>
-                    <p class="hotel__text_3">Book your stay and enjoy Luxury<br>
-                        redefined at the most affordable rates.
-                    </p>
-                    <button type="button" class="hotel__btn">
-                        <img src="./images/Group 37.png" alt="hotel__VPN_2" class="hotel_lg_img" width="28px" height="25px">
-                        BOOK NOW
-                    </button>
-                    <a href="#main">  <img src="/images/Subtraction 2.png" class="button__hotel"></a>
-                </div>
+                <h3 class="contact__title">CONTACT-US</h3>
             </div>
         </div>
     </header>
     <main id="main">
-       <div class="container">
-           <div class="main__inners">
-               <p class="menu__title">All our room types include complementary breakfast</p>
-               <div class="main__items">
-                    <div class="hotel__motel">
-                        <h3 class="menu__text_1">Luxury redefined</h3>
-                        <p class="menu__text_3">Our rooms are designed to transport 
-                            you into an environment made for leisure.
-                            Take your mind off the day-to-day of home
-                            life and find a private paradise for yourself.</p>
+        <div class="container">
+            <div class="contact__main">
+                <div class="main__title">
+                    WE ARE HERE FOR YOU
+                </div>
+                <p class="contact__text">At Luxury Hotels, we take our customers seriously. Do you have any enquiries, compaints or requests, 
+                    please forward it to our support desk and we will get back to you as soon as possible.
+                </p>
+                <div class="contact__items">
+                    <div class="contact__items-2">
+                        <p class="contact__text-2">123 abc road, next road 456,
+                            dallas
+                        </p>
+                        <a href="#main" class="main_link">View map<span class="icon-arrow-thin-right strelka"></span></a>
+                        <p class="contact__text-3">Phone: +91 1234567890<br>
+                            Email: sheraton@gmail.com
+                        </p>
                     </div>
-                    <div class="hotel__img-1">
-                        <img src="./images/steven-ungermann-aRT5UCf2MYY-unsplash.png" alt="hotel_2" class="hotel_img">
-                    </div>
+
+                    <form class="form">
+                        <label for="fname" class="label__input">Name</label><br>
+                        <input type="text" id="fname" class="form__input" name="fname"><br>
+                        <label for="lname" class="label__input">Email adress</label><br>
+                        <input type="text" id="lname" class="form__input" name="lname"><br><br>
+                        <label for="fMessage" class="label__input">Message</label><br>
+                        <textarea id="fmessage" name="message"></textarea><br>
+                        <input type="submit" class="submit__btn" value="Submit">
+                    </form>
                 </div>
             </div>
-            <div class="main__items">
-                <div class="hotel__motel">
-                    <h3 class="menu__text_1">Leave your worries in the sand</h3>
-                    <p class="menu__text_3">We love life at the beach. Being close
-                        to the ocean with access to endless sandy
-                        beach ensures a relaxed state of mind. It 
-                        seems like time stands still watching the 
-                        ocean. </p>
-                </div>
-                <div class="hotel__img-1">
-                    <img src="./images/steven-ungermann-aRT5UCf2MYY-unsplash.png" alt="hotel_2" class="hotel_img">
-                </div>
-            </div>
-            <button type="button" class="explore__btn">EXPLORE</button>
         </div>
     </main>
     <footer id="footer">
@@ -131,6 +120,3 @@
             </div>
         </div>
     </footer>
-    
-</body>
-</html>

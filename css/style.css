@@ -7,7 +7,9 @@
     padding: 0;
 }
 header{
-    min-height: 100vh;
+    height: 100vh;
+    max-height: 100%;
+    box-sizing: border-box;
     background-image: url(../images/hotel1.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -50,8 +52,8 @@ header{
     font-weight: 400;
 }
 .hotel__text_1{
-    font-size: 154px;
-    line-height: 172px;
+    font-size: 130px;
+    line-height: 130px;
     color: var(--dark-yellow);
     font-family: "Fenix";
     font-weight: 400;
@@ -70,12 +72,11 @@ header{
     letter-spacing: 0.1em;
     color: #FFFFFF; 
     font-family:"Montserrat";
-    margin-bottom: 137px;
+    margin-bottom: 2%;
 }
 .hotel__btn{
     background-color: var(--dark-blue);
     border-radius: 15px;
-
     height:78px;
     color: var(--dark-yellow);
     font-size: 25px;
@@ -91,7 +92,7 @@ header{
     margin-right: 18px;
 }
 .hotel__title{
-    margin-top: 247px;
+    margin-top: 5%;
     
 }
 .button__hotel{
@@ -99,8 +100,7 @@ header{
     margin: 0 auto;
     width: 60px;
     height: 60px;
-    padding-top:  30px ;
-    padding-bottom: 23px;
+    margin-top:1%;
 }
 .menu__text{
     padding-top: 103PX;

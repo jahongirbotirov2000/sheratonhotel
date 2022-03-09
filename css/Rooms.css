@@ -1,0 +1,93 @@
+header{
+    background-image: url(../images/mask1.png);
+}
+.rooms__title{
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--dark-blue);
+    font-family:"Fenix";
+    font-weight: 600;
+    margin: 81px 0 29px;
+}
+.rooms__paragrif{
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: var(--dark-blue);
+    font-weight: 400;
+    font-family: 'Montserrat';
+    margin-bottom: 81px;
+}
+.rooms__img{
+    width: 100%;
+    height: 796px;
+}
+.rooms__text{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+    color: #fff;
+    background-color: var(--dark-blue);
+    margin: 0 auto;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    
+
+}
+.rooms__deck{
+    position: absolute;
+    bottom: -681px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.card{
+    position: relative;
+    border-radius: 0px 0px 15px 15px;
+    border: 2px solid #14274A;
+    box-sizing: border-box;
+    margin-bottom: 81px;
+}
+.rooms__btn{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 24px 44px;
+   background-color: var(--dark-yellow);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+
+}
+.rooms__row{
+    display: flex;
+    margin-top: 79px;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.rooms__row-text{
+    font-family: 'Montserrat';
+    color: var(--dark-blue);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+.plus{
+    font-size: 30px;
+    padding: 10px 11px;
+    border-radius: 50%;
+    background-color: var(--dark-yellow);
+    color: #fff;
+}
+.rooms__icon{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.rooms__images{
+    position: relative;
+}

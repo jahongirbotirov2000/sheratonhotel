@@ -250,3 +250,36 @@ header{
 .hotel__adress{
     padding-top: 69px;
 }
+.mob__btn{
+    width: 25px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: black;
+    position: relative;
+}
+.mob__btn:before{
+    width: 25px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: black;
+    content:" ";
+    position: absolute;
+    top: -7px;
+    left: 0;
+}
+.mob__btn::after{
+    width: 25px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: black;
+    content:" ";
+    position: absolute;
+    bottom:-7px;
+    left: 0;
+}
+.mob{
+    display: none;
+}
+.mob__nav{
+    display: none;
+}

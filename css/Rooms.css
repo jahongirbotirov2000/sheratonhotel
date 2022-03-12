@@ -90,4 +90,5 @@ header{
 }
 .rooms__images{
     position: relative;
+    overflow: hidden;
 }

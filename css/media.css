@@ -275,4 +275,28 @@
        flex-direction: column;
        align-items: center;
    }
+   .facilities__title{
+       font-size: 20px;
+       line-height: 130%;
+       margin: 15px auto 15px;
+   }
+   .facilities__paragrif{
+       font-size: 15px;
+       line-height: 130%;
+       margin-bottom: 15px;
+   }
+   .facelitic__img{
+       object-fit: cover;
+       height: auto;
+   }
+   .facilities__gym{
+       width:50%;
+       font-size: 15px;
+       line-height: 130%;
+       padding:0 10px;
+       height: auto;
+   }
+   .img__facilities{
+       margin-bottom: 30px;
+   }
 }

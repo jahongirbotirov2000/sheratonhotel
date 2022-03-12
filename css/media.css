@@ -299,4 +299,15 @@
    .img__facilities{
        margin-bottom: 30px;
    }
+   .footer__input{
+        border: 2px solid #E0B973;
+        margin-bottom: 15px;
+        margin-top: 10px;
+   }
+   .footer__adress{
+       border: none;
+   }
+  .footer__btn{
+    padding: 10px 20px;
+  }
 }

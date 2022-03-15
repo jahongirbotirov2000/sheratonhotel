@@ -117,5 +117,10 @@ header{
 #main{
     padding-bottom: 400px;
 }
+@media (max-width:1100px){
+    header{
+        height: 300px;
+    }
+}
 
 
